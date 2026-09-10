@@ -1,0 +1,25 @@
+{
+  "fileKey": "d8VcZ6Nyf7KvdWa7UClLcz",
+  "nodes": {
+    "8:7448": {
+      "component": "src/screens/LoginScreen.vue",
+      "route": "login"
+    },
+    "8:7475": {
+      "component": "src/screens/ScanScreen.vue",
+      "route": "scan"
+    },
+    "8:7519": {
+      "component": "src/screens/PickingScreen.vue",
+      "route": "picking"
+    },
+    "8:7612": {
+      "component": "src/screens/ProductInputScreen.vue",
+      "route": "product-input"
+    },
+    "8:7560": {
+      "component": "src/screens/CompleteScreen.vue",
+      "route": "complete"
+    }
+  }
+}

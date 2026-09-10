@@ -1,0 +1,9 @@
+{
+  "_comment": "노드 ID ↔ 그 화면을 담당하는 코드 파일. 스택 무관. AI 가 화면을 구현하면서 채운다.",
+  "fileKey": "PASTE_FIGMA_FILE_KEY",
+  "nodes": {
+    "1:23": { "component": "src/pages/Login.tsx", "route": "login" },
+    "1:45": { "component": "src/pages/Dashboard.tsx", "route": "dashboard" },
+    "1:88": { "component": "src/components/Sidebar.tsx" }
+  }
+}

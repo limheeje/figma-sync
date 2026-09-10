@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="120" height="106" viewBox="0 0 120 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ic:baseline-minus">
+<mask id="path-1-inside-1_0_10" fill="white">
+<path d="M0 0H120V106H0V0Z"/>
+</mask>
+<path d="M0 0H120V106H0V0Z" fill="white"/>
+<path d="M120 0H119V106H120H121V0H120Z" fill="#5C6A76" mask="url(#path-1-inside-1_0_10)"/>
+<path id="Vector" d="M73 54.2857H43V50H73V54.2857Z" fill="#5C6A76"/>
+</g>
+</svg>

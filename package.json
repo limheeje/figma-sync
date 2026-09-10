@@ -1,0 +1,32 @@
+{
+  "name": "figma-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "shot": "node scripts/figma-shot.mjs",
+    "webhook": "node --env-file=.env server/webhook.mjs",
+    "webhook:map": "node --env-file=.env server/gen-figma-map.mjs",
+    "webhook:detect": "node --env-file=.env server/detect-changes.mjs",
+    "webhook:detect:init": "node --env-file=.env server/detect-changes.mjs init",
+    "webhook:create": "node --env-file=.env server/figma-webhooks.mjs create",
+    "webhook:list": "node --env-file=.env server/figma-webhooks.mjs list",
+    "webhook:delete": "node --env-file=.env server/figma-webhooks.mjs delete"
+  },
+  "dependencies": {
+    "vue": "^3.5.41",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "playwright": "^1.63.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vue-tsc": "^3.3.11"
+  }
+}

@@ -1,0 +1,48 @@
+/* Design tokens — Figma file d8VcZ6Ny, CJ WMS 핸디 앱 (Page 1, 8:xxxx) */
+:root {
+  /* CJ palette */
+  --cj-white: #ffffff;
+  --cj-color3: #333333; /* 헤더 배경 */
+  --cj-primary: #027ac4; /* 기본칼라 — 버튼, 강조 숫자 */
+  --cj-primary-dark: #006ecd; /* 기본칼라3 — 버튼 보더 */
+  --cj-font1: #373737; /* 폰트칼라1 — 본문 */
+  --cj-gray6: #5c6a76; /* 그레이6 — 필드 보더 */
+  --cj-gray7: #c2c2c2; /* 그레이7 — placeholder */
+  --cj-gray4: #f7f7f7; /* 그레이4 — 비활성 셀 배경 */
+  --cj-gray2: #ddefff; /* 그레이2 — 라벨 알약 배경 */
+  --cj-color1: #00142d; /* 칼라1 — 화면 배경 */
+  --cj-near-black: #0a0909; /* 상품투입 피킹면 박스 배경 (8:7628) */
+  --cj-btn-red: #c40205; /* 로그인 버튼 배경 (8:7461) */
+
+  /* Layout — 720×1440 고정 */
+  --screen-w: 720px;
+  --screen-h: 1440px;
+  --header-h: 90px;
+  --row-h: 108px;
+  --row-gap: 8px;
+  --radius: 4px;
+  --pad-x: 12px;
+  --label-col-w: 168px;
+
+  /* Type — CJ ONLYONE (사내 폰트, 미설치 시 폴백) */
+  --font-cj:
+    'CJ ONLYONE', 'CJ ONLYONE NEW body', 'Pretendard', 'Apple SD Gothic Neo',
+    'Noto Sans KR', system-ui, sans-serif;
+  --font-cj-bold:
+    'CJ ONLYONE Bold', 'CJ ONLYONE', 'Pretendard', 'Apple SD Gothic Neo',
+    'Noto Sans KR', system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-cj);
+  color: var(--cj-font1);
+  background: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
